@@ -1,6 +1,7 @@
 package com.example.tasklist.config;
 
 import com.example.tasklist.web.secutiry.JwtTokenFilter;
+import com.example.tasklist.web.secutiry.JwtTokenProvider;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -22,6 +23,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class ApplicationConfiguration {
 
     private final ApplicationContext applicationContext;
+    private final JwtTokenProvider jwtTokenProvider;
 
     @Bean
     public PasswordEncoder passwordEncoder() {

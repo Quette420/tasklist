@@ -16,3 +16,8 @@ spring:
   output:
     ansi:
       enabled: ALWAYS
+security:
+  jwt:
+    secret: YW5qYXNuZGtsbWsxMm0zazEyNGwyMSxtMW0sbDI0c2QsdyxscyxzYWxkc2FkZmxzYWZzYWZhc2Zhc2Zhcw==
+    access: 3600000
+    refresh: 2592000000
