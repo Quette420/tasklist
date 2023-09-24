@@ -35,7 +35,7 @@ public class TaskRepositoryImpl implements TaskRepository {
     }
 
     @Override
-    public void delete(Task task) {
+    public void deleteById(Long id) {
 
     }
 }

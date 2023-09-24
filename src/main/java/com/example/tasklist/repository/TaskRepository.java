@@ -17,6 +17,6 @@ public interface TaskRepository {
 
     void create(Task task);
 
-    void delete(Task task);
+    void deleteById(Long id);
 
 }
