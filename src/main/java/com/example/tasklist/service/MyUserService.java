@@ -13,8 +13,6 @@ public interface MyUserService {
 
     User create(User user);
 
-    User insertUserRole(Long userId, Role role);
-
     boolean isTaskOwner(Long userId, Long taskId);
 
     void delete(Long id);
